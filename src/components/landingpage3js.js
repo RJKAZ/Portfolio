@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
 import profilepic from '../images/profilepic.png';
 
-
 class Landing extends Component {
   render() {
     return (
@@ -38,10 +37,7 @@ class Landing extends Component {
           </Cell>
         </Grid>
         
-        
         </div>
-
-        
     )
   }
 }

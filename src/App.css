@@ -1,13 +1,13 @@
 .header-color {
   background: #b92b27;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #1565C0, #b92b27);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #1565C0, #b92b27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: -webkit-linear-gradient(to right, #1565C0, darkblue);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #1565C0, darkblue); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .landing-grid {
-  background: #b92b27;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #1565C0, #b92b27);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #1565C0, #b92b27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-image: url("../src/assets/img/codegraphic.jpg");
+background: -webkit-linear-gradient(to top, black, white); 
+background: linear-gradient(to top,darkgrey, white); 
 text-align: center;
 position: fixed;
 top: 0;
@@ -16,13 +16,28 @@ width: 100%;
 height: 100%;
 }
 
+/*
+.landing-grid {
+  background: #b92b27;  
+background: -webkit-linear-gradient(to right, #1565C0, #b92b27); 
+background: linear-gradient(to right, #1565C0, #b92b27); 
+text-align: center;
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+*/
+
+
 .avatar-img {
   height: 250px;
   padding-top: 5em;
 }
 
 .banner-text {
-  background-color: black;
+  background: linear-gradient(to right, #1565C0, darkblue);
   opacity: .8;
   width: 75%;
   margin: auto;
@@ -67,8 +82,8 @@ height: 100%;
 
 .contact-body {
   margin: auto;
-  
-  position: fixed;
+
+  position: flex;
   width: 100%;
   height: 100%;
   justify-content: center;
@@ -87,12 +102,13 @@ height: 100%;
 }
 
 .contact-grid h2 {
-  font-family: 'Anton', sans-serif;
+  font-family: 'bookantiqua', sans-serif;
 }
 
 .contact-grid p {
-  font-family: 'Oxygen', sans-serif;
+  font-family: 'bookantiqua', sans-serif;
   font-weight: bold;
+  font-size: 20px;
 }
 
 .contact-body hr {

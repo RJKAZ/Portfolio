@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "title": "The Interview!",
+    "description": "A Visual Novel of my own creation. It has a short story component that brings the player to a short three question quiz. Depending on your answers, the story will resolve in one of four possible endings. The Story, Art, and Voices were of my own creation.",
+    "livelink": "https://calm-stream-65291.herokuapp.com/",
+    "codelink": "https://github.com/RJKAZ/the-interview",
+    "technologies": ["React", "Clip Studio Paint", "Photoshop"],
+    "img": "theInterviewPage.jpg"
+},
+{
+  "id": 2,
+  "title": "The Contagion Boutique",
+  "description": "A template for an e-commerece on-line store. This project was a group effort, and my work was focused on the front end, to which I created all the art and graphics used on the site, including the products that I photoshoped. The purpose of the site was to be more of a template, so the content currently published on the deployed site are pure works of satire and fall under fair use.",
+  "livelink": "https://the-contagion-boutique.herokuapp.com/index.html",
+  "codelink": "https://github.com/smeruva1/The-Contagion-Boutique",
+  "technologies": ["JavaScript", "Photoshop"],
+  "img": "contagionboutique.jpg"
+},
+{
+  "id": 3,
+  "title": "Spotify Lyric Webplayer",
+  "description": "A music player for Spotify Premium users that pulls up and displays the lyrics for the current song playing. This project was a group effort, and my work was mostly on the front end. I chose the color/design theme, and I created custom art for the page as well. The main background graphic as well as the playback buttons I created using Photoshop.",
+  "livelink": "https://rjkaz.github.io/Concatenated-Cats/",
+  "codelink": "https://github.com/chenallee/Lyryx-Webplayer",
+  "technologies": ["JavaScript", "Photoshop"],
+  "img": "spotifypage.jpg"
+}
+
+]
